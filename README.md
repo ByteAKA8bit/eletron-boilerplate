@@ -1,6 +1,6 @@
 # eletron-boilerplate
 
-An Electron application with React and TypeScript
+An Electron application with React,Express and Typescript
 
 ## Recommended IDE Setup
 
@@ -11,13 +11,13 @@ An Electron application with React and TypeScript
 ### Install
 
 ```bash
-$ yarn
+yarn
 ```
 
 ### Development
 
 ```bash
-$ yarn dev
+yarn dev
 ```
 
 ### Build

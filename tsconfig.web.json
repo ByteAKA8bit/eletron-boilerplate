@@ -6,6 +6,7 @@
   ],
   "compilerOptions": {
     "composite": true,
+    "types": ["electron-vite/node"],
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {

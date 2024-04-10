@@ -19,12 +19,12 @@ app.use('/', indexRouter)
 app.use('/users', usersRouter)
 
 // catch 404 and forward to error handler
-app.use(function (request, response, next) {
+app.use(function (_request, _response, next) {
   next(createError(404))
 } as RequestHandler)
 
 // error handler
-app.use(function (err, request, response, next) {
+app.use(function (err, request, response) {
   // set locals, only providing error in development
   response.locals.message = err.message
   response.locals.error = request.app.get('env') === 'development' ? err : {}

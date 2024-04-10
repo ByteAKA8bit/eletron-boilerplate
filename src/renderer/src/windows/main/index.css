@@ -1,0 +1,8 @@
+@import '../../assets/base.css';
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
